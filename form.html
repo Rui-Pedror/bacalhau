@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ContactUs</title>
+  </head>
+  <body id="bodyForm">
+    <div class="main">
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="/restaurants.html" title="Restaurants">Restaurants</a>
+          </li>
+          <li><a href="/recipes.html" title="Recipes">Recipes</a></li>
+          <li><a href="/facts.html" title="Facts">Fun Facts</a></li>
+          <li><a href="/form.html" title="Contact Us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1 id="contactUs">Contact Us</h1>
+    <p>
+      Help us improve and leave us a suggestion about codfish! From restaurants
+      to fun facts about our favorite ingredient, or your own recipes!
+    </p>
+    <section>
+      <form id="suggestionForm">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" value="Vasquez" /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="example@gmail.com"
+        /><br />
+        <label for="message">Suggestion:</label><br />
+        <textarea id="message" name="message"></textarea>
+        <br /><br />
+        <hr />
+
+        <h4>Send us your recipe ideas by uploading the PDF/Word/Note file!</h4>
+
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>
