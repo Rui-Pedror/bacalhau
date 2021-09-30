@@ -1,0 +1,139 @@
+/* NEW CSS FUSION */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  line-height: 1.6;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /*smooth*/
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+.navbar {
+  position: fixed;
+  top: 3rem;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+.navbar ul li a:hover {
+  color: lightblue;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+section h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+section p {
+  font-size: 1.5rem;
+}
+
+section#home {
+  background: url("https://cdn.pixabay.com/photo/2017/04/07/16/43/date-2211338_960_720.jpg")
+    no-repeat center center/cover;
+  padding-top: 6%;
+  text-align: center;
+}
+
+section#facts {
+  background: url("https://images.unsplash.com/photo-1509664158680-07c5032b51e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
+    no-repeat center center/cover;
+}
+
+section#recipe {
+  background: url("https://images.unsplash.com/photo-1510631772931-d3246950c275?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80")
+    no-repeat center center/cover;
+}
+
+section#rest {
+  background: url("https://images.unsplash.com/photo-1512494371229-56e3110c5742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
+    no-repeat center center/cover;
+}
+section#form {
+  background: url("https://images.unsplash.com/photo-1510245987579-6ee8a9041294?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
+    no-repeat center center/cover;
+}
+/* TESTS NAVBAR FROM HUGO --------------------------- */
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+.navigation ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+.navigation ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+.navigation ul li a:hover {
+  color: lightblue;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+.newContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.virtude {
+  align-self: flex-start;
+  width: 35%;
+}
+.rest {
+  width: 30%;
+}
