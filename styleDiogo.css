@@ -119,7 +119,7 @@ section#form {
   background: url("https://images.unsplash.com/photo-1510245987579-6ee8a9041294?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
     no-repeat center center/cover;
 }
-.intro {
+/*.intro {
   background: black;
   position: fixed;
   top: 0;
@@ -153,3 +153,7 @@ section#form {
   transform: translateY(100%);
   display: inline-block;
 }
+
+
+css for animation 
+*/
